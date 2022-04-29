@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI;CACvB",
+    "sources": [
+        "styles.scss",
+        "_variables.scss",
+        "_mixins.scss",
+        "_card.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
