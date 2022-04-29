@@ -3,5 +3,13 @@
 @import 'card';
 
 body {
-  background-color: pink;
+	background-color: $v-dark-blue-main-bg;
+	color: $soft-blue;
+	height: 100vh;
+	@include basic-reset();
+	@include flex-center();
+}
+
+.attribution {
+	display: none;
 }
