@@ -1,3 +1,171 @@
+.container {
+  max-width: 375px;
+  background-color: #14253d;
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+.top {
+  position: relative;
+}
+
+.top img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #00fff7;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.top:hover .overlay {
+  opacity: 0.6;
+}
+
+.icon {
+  opacity: 1;
+  width: 50px;
+}
+
+.icon-bg {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.title:hover,
+a:hover {
+  color: #00fff7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.bottom p {
+  font-size: 1.35em;
+}
+
+.info,
+.info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info {
+  border-bottom: solid 0.5px #2f415b;
+}
+
+.info-item p {
+  vertical-align: middle;
+}
+
+.info img {
+  max-width: 25px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 5px;
+}
+
+.info p {
+  margin: 0 0 20px 0;
+  font-size: 1.1em;
+  padding: 20px 0 0 20px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.eth-amount {
+  color: #00fff7;
+  font-weight: 400;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.avatar img {
+  max-width: 40px;
+  width: 100%;
+  margin: 1em 1em 1em 0;
+  border: solid 0.5px white;
+  border-radius: 30px;
+}
+
+.avatar p {
+  font-size: 1em;
+}
+
+.avatar a:hover,
+a:hover {
+  color: #00fff7;
+}
+
+/*============
+    DESKTOP
+==============*/
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 380 px;
+  }
+}
+
 body {
   background-color: #0d192b;
   color: #8bacda;
@@ -15,6 +183,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  line-height: 2em;
 }
 
 .attribution {

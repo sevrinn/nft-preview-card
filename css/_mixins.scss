@@ -9,3 +9,27 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+@mixin flex {
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+@mixin link-styles {
+	text-decoration: none;
+	color: $white;
+}
+
+@mixin link-visited {
+	color: $white;
+}
+
+@mixin link-hover {
+	color: $cyan;
+}
+
+@mixin ease {
+	transition: $ease;
+}

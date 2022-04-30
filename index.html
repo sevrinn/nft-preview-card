@@ -12,35 +12,38 @@
 			href="./images/favicon-32x32.png"
 		/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
 		<link rel="stylesheet" href="css/styles.css" />
 
 		<title>Frontend Mentor | NFT preview card component</title>
 
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
 
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
-	</head>
 
 	<body>
 		<div class="container">
 			<div class="top">
-				<img src="images/image-equilibrium.jpg" alt="piece of crap nft img" />
+        <a href="#">
+          <img src="images/image-equilibrium.jpg" alt="piece of crap nft img" class="main-img" />
+        </a>
+				<div class="overlay">
+          <div class="icon-bg">
+            <img src="images/icon-view.svg" alt="eye icon" class="icon" />
+          </div>
+          
+        </div>
 			</div>
 			<div class="bottom">
-				<h1 class="title">Equilibrium #3429</h1>
+        <a href="#">
+          <h1 class="title">Equilibrium #3429</h1>
+        </a>
 				<p>Our Equilibrium collection promotes balance and calm.</p>
 				<div class="info">
 					<div class="eth info-item">
 						<img src="images/icon-ethereum.svg" alt="eth icon" />
-						<p class="eth">0.041 ETH</p>
+						<p class="eth-amount">0.041 ETH</p>
 					</div>
 					<div class="time info-item">
 						<img src="images/icon-clock.svg" alt="clock" />
@@ -49,7 +52,7 @@
 				</div>
 				<div class="avatar">
 					<img src="images/image-avatar.png" alt="some goofy nft clown" />
-					<p>Creation of Jules Wyvern</p>
+					<p>Creation of <a href="#">Jules Wyvern</a></p>
 				</div>
 			</div>
 		</div>
