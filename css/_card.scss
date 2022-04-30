@@ -131,6 +131,11 @@ a:visited {
 	font-size: 1em;
 }
 
+.avatar p,
+.avatar img {
+	margin-bottom: 0;
+}
+
 .avatar a:hover,
 a:hover {
 	@include link-hover;
@@ -142,6 +147,6 @@ a:hover {
 ==============*/
 @media screen and (min-width: 500px) {
 	.container {
-		max-width: 380 px;
+		max-swidth: 380px;
 	}
 }

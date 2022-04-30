@@ -1,5 +1,5 @@
 .container {
-  max-width: 375px;
+  max-width: 327px;
   background-color: #14253d;
   padding: 1.5em;
   border-radius: 1em;
@@ -156,6 +156,11 @@ a:visited {
   font-size: 1em;
 }
 
+.avatar p,
+.avatar img {
+  margin-bottom: 0;
+}
+
 .avatar a:hover,
 a:hover {
   color: #00fff7;
@@ -168,7 +173,7 @@ a:hover {
 ==============*/
 @media screen and (min-width: 500px) {
   .container {
-    max-width: 380 px;
+    max-swidth: 380px;
   }
 }
 
