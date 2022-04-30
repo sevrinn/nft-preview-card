@@ -3,6 +3,8 @@
   background-color: #14253d;
   padding: 1.5em;
   border-radius: 1em;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .top {
@@ -36,6 +38,10 @@
 
 .top:hover .overlay {
   opacity: 0.6;
+}
+
+.top:hover .icon {
+  opacity: 1;
 }
 
 .icon {
