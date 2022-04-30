@@ -173,7 +173,7 @@ a:hover {
 ==============*/
 @media screen and (min-width: 500px) {
   .container {
-    max-swidth: 380px;
+    max-width: 380px;
   }
 }
 
