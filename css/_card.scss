@@ -57,11 +57,14 @@
 	color: $white;
 	font-size: 1.9rem;
 	font-weight: $regular;
+	display: inline-block;
+	margin-bottom: 0px;
 }
 
 .title:hover,
 a:hover {
 	@include link-hover;
+	transition: $ease;
 }
 
 a {
@@ -131,6 +134,7 @@ a:visited {
 .avatar a:hover,
 a:hover {
 	@include link-hover;
+	transition: $ease;
 }
 
 /*============
